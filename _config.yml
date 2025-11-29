@@ -1,0 +1,9 @@
+title: "Numaan Cheema | Security Engineering Notes"
+description: "Practical security notes, experiments, and projects exploring AppSec, cloud security, and AI-assisted security engineering."
+theme: jekyll-theme-cayman
+markdown: kramdown
+highlighter: rouge
+
+collections:
+  projects:
+    output: true
