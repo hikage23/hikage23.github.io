@@ -1,11 +1,24 @@
-# Welcome
+---
+title: Home
+layout: default
+---
 
-I'm Numaan...an engineer interested (and studying) Security Engineering and AppSec.
+# 👋 Welcome
 
-This site is a running log of:
-- Security writeups  
-- AI-assisted tooling experiments  
-- AppSec + cloud security projects  
-- Hands-on learning as I move deeper into the field  
+I'm **Numaan Cheema** — an engineer transitioning into Security Engineering and AppSec.
 
-Everything here is real, practical, and based on what I’m building day to day.
+This site is where I document:
+- Hands-on security projects
+- AI-assisted AppSec tools I’m building
+- Threat modeling notes
+- Cloud + AppSec experiments
+- My journey into Product Security
+
+---
+
+### 🔥 Featured Posts
+- [Why I'm Moving Into Security Engineering](/2025/01/01/my-security-transition.html)
+
+### 🛠️ Featured Projects
+- [AI Code Review Bot](/projects)
+- [Terraform Security Analyzer](/projects)
