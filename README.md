@@ -2,7 +2,7 @@
 
 This repository powers my security engineering portfolio, blog, and hands-on projects.
 
-**Live site:** [https://hikage23.github.io/numaan-cheema.github.io/](https://hikage23.github.io)
+**Live site:** https://hikage23.github.io
 
 The site includes:
 - AppSec + cloud security writeups  
