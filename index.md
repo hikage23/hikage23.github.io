@@ -3,22 +3,14 @@ title: Home
 layout: default
 ---
 
-# 👋 Welcome
+# 💻 user@numaan-cheema:~$
 
-I'm **Numaan Cheema** — an engineer transitioning into Security Engineering and AppSec.
+```bash
+# Initialize Profile
+$ whoami
+> Numaan Cheema
+> Product Security Engineering | Secure SDLC | Cloud & API Security
 
-This site is where I document:
-- Hands-on security projects
-- AI-assisted AppSec tools I’m building
-- Threat modeling notes
-- Cloud + AppSec experiments
-- My journey into Product Security
-
----
-
-### 🔥 Featured Posts
-- [Why I'm Moving Into Security Engineering](/2025/01/01/my-security-transition.html)
-
-### 🛠️ Featured Projects
-- [AI Code Review Bot](/projects)
-- [Terraform Security Analyzer](/projects)
+# Current Status
+$ echo "Transitioning from Engineering to full-time AppSec."
+$ echo "Building security programs that engineers can actually work with."
