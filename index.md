@@ -1,7 +1,4 @@
 ---
-
-````markdown
----
 layout: default
 title: Home
 ---
@@ -21,11 +18,11 @@ Secure SDLC | Cloud-Native Systems | API & CI/CD Security
 **Security Engineering in Practice**
 
 Modern software systems are distributed, containerized, and cloud-native.  
-Security cannot be an afterthought — it must be engineered into architecture, code, and deployment workflows.
+Security cannot be bolted on at the end — it must be engineered into architecture, code, and deployment workflows.
 
 I focus on embedding security controls directly into development pipelines, operationalizing vulnerability management, and designing systems that remain resilient as they scale.
 
-My objective is simple:
+My objective:
 
 > Build security programs that engineers can actually work with.
 
@@ -49,7 +46,7 @@ Cloud_Architecture:
 AI_Augmented_Security:
   - "LLM-assisted vulnerability classification"
   - "Automated remediation guidance generation"
-````
+```
 
 ---
 
@@ -57,44 +54,19 @@ AI_Augmented_Security:
 
 #### 📝 Latest Writeups
 
-`rw-r--r--`  /blog
+`rw-r--r--`  /blog  
 Security engineering notes, threat modeling walkthroughs, and applied AppSec research.
 
 #### 🛠 Projects
 
-`rwx------`  /projects
+`rwx------`  /projects  
 Hands-on implementations:
-
-* Secure CI/CD pipeline lab
-* API security assessment demo
-* AI-assisted vulnerability triage tooling
+- Secure CI/CD pipeline lab
+- API security assessment demo
+- AI-assisted vulnerability triage tooling
 
 ---
 
 ### `> echo $STATUS`
 
-Currently building deeper specialization in Product Security and cloud-native application defense.
-
-```
-
----
-
-Why this version works better:
-
-- No “transition” language.
-- No “learning journey.”
-- Reads like someone already operating in the field.
-- Clear Product Security identity.
-- AI positioned as augmentation, not gimmick.
-- Cleaner terminal realism.
-
-Next step:
-
-Do you want to:
-1. Refine the blog page structure
-2. Build the first real AppSec project page
-3. Tighten visual styling (CSS tweaks for terminal realism)
-4. Or draft your first strong security blog post
-
-We build this deliberately.
-```
+Building deeper specialization in Product Security and cloud-native application defense.
