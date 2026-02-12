@@ -11,7 +11,7 @@ title: Home
 Product Security Engineer  
 Secure SDLC | Cloud-Native Systems | API & CI/CD Security
 
----
+
 
 ### `> cat mission_statement.txt`
 
@@ -26,7 +26,6 @@ My objective:
 
 > Build security programs that engineers can actually work with.
 
----
 
 ### `> ./current_focus.sh`
 
@@ -48,7 +47,7 @@ AI_Augmented_Security:
   - "Automated remediation guidance generation"
 ```
 
----
+
 
 ### `> ls -la ./featured_content/`
 
@@ -65,7 +64,7 @@ Hands-on implementations:
 - API security assessment demo
 - AI-assisted vulnerability triage tooling
 
----
+
 
 ### `> echo $STATUS`
 
