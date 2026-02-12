@@ -1,81 +1,119 @@
----
+ 
 layout: default
 title: Projects
----
+ 
 
 # 🛠 projects@sec-eng:~$
 
+### `> pwd`
+/home/numaan/security/projects
+
+
+
 ### `> ls -la`
 
----
+```
+drwxr-xr-x  secure-cicd-lab/
+drwxr-xr-x  api-security-demo/
+drwxr-xr-x  ai-vuln-triage/
+drwxr-xr-x  cloud-review/
+```
 
-## 🔐 Secure CI/CD Pipeline Lab
+ 
 
-**Focus:** DevSecOps | SAST | SCA | Container Security
+## 🔐 secure-cicd-lab/
 
-Built a sample microservice application and integrated security tooling directly into the CI/CD workflow.
+### `> cat README.md`
 
-**Highlights:**
-- Integrated static analysis into build pipeline
-- Implemented dependency scanning for third-party libraries
-- Added container image scanning before deployment
-- Documented vulnerability triage and remediation workflow
-- Demonstrated risk-based prioritization of findings
+**Focus:** DevSecOps | Secure SDLC | Pipeline Security
 
-**Goal:** Reduce vulnerability detection time and shift security left.
+Built a containerized microservice and integrated security controls directly into the CI/CD workflow.
 
----
+```
+Security Controls Implemented:
+  - Static code analysis (SAST)
+  - Dependency vulnerability scanning (SCA)
+  - Container image scanning
+  - Build-time security gates
+```
 
-## 🧪 API Security Assessment Demo
+```
+Operational Outcomes:
+  - Vulnerability detection during pull request stage
+  - Severity-based triage workflow
+  - Documented remediation lifecycle
+  - Reduced exposure window before deployment
+```
+
+Objective: Shift security left and operationalize automated controls within development pipelines.
+
+ 
+
+## 🧪 api-security-demo/
+
+### `> ./run_assessment.sh`
 
 **Focus:** Application Security | OWASP API Top 10
 
-Designed and tested a vulnerable REST API to simulate real-world abuse cases.
+Designed a vulnerable REST API to simulate realistic exploitation paths.
 
-**Test Scenarios:**
-- Broken object-level authorization (IDOR)
-- Improper JWT validation
-- Input validation & injection flaws
-- Rate limiting bypass
+```
+Tested Scenarios:
+  - Broken object-level authorization (IDOR)
+  - JWT validation weaknesses
+  - Injection via unsanitized input
+  - Rate limiting bypass
+```
 
 Includes:
-- Threat model
-- Exploitation walkthrough
-- Remediation recommendations
-- Risk impact analysis
+  - Structured threat model
+  - Exploitation walkthrough
+  - Risk severity classification
+  - Remediation strategy documentation
 
----
+ 
 
-## 🤖 AI-Assisted Vulnerability Triage Tool
+## 🤖 ai-vuln-triage/
 
-**Focus:** AI in Security Engineering
+### `> python triage.py --analyze scan_output.json`
 
-Developed a prototype workflow that:
-- Parses raw vulnerability scanner output
-- Classifies severity using contextual risk signals
-- Generates structured remediation notes
-- Flags likely false positives
+**Focus:** AI-Augmented Security Engineering
 
-**Objective:** Improve signal-to-noise ratio in large-scale vulnerability programs.
+Prototype workflow that processes raw scanner output and enhances triage efficiency.
 
----
+```
+Capabilities:
+  - Severity normalization
+  - Context-aware risk tagging
+  - False positive likelihood scoring
+  - Remediation guidance generation
+```
 
-## ☁️ Cloud Misconfiguration Review
+Objective: Improve signal-to-noise ratio in large-scale vulnerability management programs.
 
-**Focus:** IAM & Cloud Security Posture
+ 
 
-Simulated review of AWS-based infrastructure:
+## ☁️ cloud-review/
 
-- Evaluated overly permissive IAM roles
-- Identified public exposure risks
-- Reviewed container registry permissions
-- Applied least-privilege principles
+### `> terraform plan --security-review`
 
----
+**Focus:** Cloud Security | IAM | Infrastructure Risk
 
-### `> echo $ROADMAP`
+Simulated review of cloud-native deployment patterns.
 
-Upcoming:
-- Structured threat modeling case study (SaaS architecture)
-- Secure design review checklist for API-driven systems
-- CI pipeline security hardening benchmark
+```
+Security Analysis:
+  - Overly permissive IAM role detection
+  - Public exposure surface identification
+  - Container registry permission audit
+  - Least-privilege enforcement validation
+```
+
+ 
+
+### `> echo $NEXT`
+
+Planned Modules:
+  - Structured SaaS threat modeling case study
+  - Secure design review checklist (API-driven systems)
+  - CI/CD hardening benchmark report
