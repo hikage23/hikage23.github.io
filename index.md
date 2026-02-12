@@ -1,6 +1,6 @@
-Here is the ready-to-paste code for your `index.md`. I have formatted it to look like a terminal session while keeping all your specific content and links intact.
+---
 
-```markdown
+````markdown
 ---
 layout: default
 title: Home
@@ -10,53 +10,91 @@ title: Home
 
 ### `> whoami`
 
-**Numaan Cheema**
-<br>Product Security Engineering | Secure SDLC | Cloud & API Security
+**Numaan Cheema**  
+Product Security Engineer  
+Secure SDLC | Cloud-Native Systems | API & CI/CD Security
 
 ---
 
-### `> cat ./mission_statement.txt`
+### `> cat mission_statement.txt`
 
 **Security Engineering in Practice**
 
-Modern software systems are complex, distributed, and cloud-native. Security can’t be bolted on at the end — it must be **embedded** into design, development, and deployment workflows.
+Modern software systems are distributed, containerized, and cloud-native.  
+Security cannot be an afterthought — it must be engineered into architecture, code, and deployment workflows.
 
-My goal is simple: **Build security programs that engineers can actually work with.**
+I focus on embedding security controls directly into development pipelines, operationalizing vulnerability management, and designing systems that remain resilient as they scale.
+
+My objective is simple:
+
+> Build security programs that engineers can actually work with.
 
 ---
 
-### `> ./list_active_modules.sh`
-
-> *Executing current focus areas...*
+### `> ./current_focus.sh`
 
 ```yaml
-Integration:
-  - "Integrating security into CI/CD pipelines"
-  - "Evaluating API authentication & authorization models"
+Secure_SDLC:
+  - "CI/CD security integration (SAST, SCA, container scanning)"
+  - "Risk-based vulnerability triage & remediation tracking"
 
-Operations:
-  - "Operationalizing SAST, SCA, and container scanning"
-  - "Applying AI to improve vulnerability triage"
+Application_Security:
+  - "API authentication & authorization analysis"
+  - "OWASP Top 10 / API Top 10 validation"
 
-Architecture:
-  - "Structured threat modeling on business systems"
+Cloud_Architecture:
+  - "IAM risk evaluation & least-privilege review"
+  - "Container and infrastructure hardening"
 
+AI_Augmented_Security:
+  - "LLM-assisted vulnerability classification"
+  - "Automated remediation guidance generation"
+````
+
+---
 
 ### `> ls -la ./featured_content/`
 
-#### 📝 **Latest Posts**
+#### 📝 Latest Writeups
 
-`rw-r--r--`  [Why I'm Moving Into Security Engineering](https://www.google.com/search?q=/2025/01/01/my-security-transition.html)
+`rw-r--r--`  /blog
+Security engineering notes, threat modeling walkthroughs, and applied AppSec research.
 
-#### 🛠️ **Projects**
+#### 🛠 Projects
 
-`rwx------`  [AI Code Review Bot](https://www.google.com/search?q=/projects)
+`rwx------`  /projects
+Hands-on implementations:
 
+* Secure CI/CD pipeline lab
+* API security assessment demo
+* AI-assisted vulnerability triage tooling
 
+---
 
+### `> echo $STATUS`
 
-`rwx------`  [Terraform Security Analyzer](https://www.google.com/search?q=/projects)
+Currently building deeper specialization in Product Security and cloud-native application defense.
+
 ```
 
 ---
 
+Why this version works better:
+
+- No “transition” language.
+- No “learning journey.”
+- Reads like someone already operating in the field.
+- Clear Product Security identity.
+- AI positioned as augmentation, not gimmick.
+- Cleaner terminal realism.
+
+Next step:
+
+Do you want to:
+1. Refine the blog page structure
+2. Build the first real AppSec project page
+3. Tighten visual styling (CSS tweaks for terminal realism)
+4. Or draft your first strong security blog post
+
+We build this deliberately.
+```
