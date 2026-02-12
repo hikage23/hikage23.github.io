@@ -41,9 +41,6 @@ Operations:
 Architecture:
   - "Structured threat modeling on business systems"
 
-```
-
----
 
 ### `> ls -la ./featured_content/`
 
@@ -59,3 +56,7 @@ Architecture:
 
 
 `rwx------`  [Terraform Security Analyzer](https://www.google.com/search?q=/projects)
+```
+
+---
+
