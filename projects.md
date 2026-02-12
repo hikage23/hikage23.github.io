@@ -1,7 +1,7 @@
- 
+---
 layout: default
 title: Projects
- 
+---
 
 # 🛠 projects@sec-eng:~$
 
